@@ -13,7 +13,16 @@ A reusable class to display custom message box on vb.net forms apps.
 5.	Error Handling:
 <br>	Validates input parameters to prevent errors
 
-
+## Examples
+![image](https://github.com/user-attachments/assets/3a1dad19-6f78-4174-90c9-d5d9044379ba)\
+*A message box with colored text footer, custom buttons and autoclose timer*\
+<br>
+![image](https://github.com/user-attachments/assets/3f58a5dc-5b83-4da2-92c8-a18318185f0e)\
+*A highly customized message box with colored text footer, custom buttons and autoclose timer*\
+<br>
+![image](https://github.com/user-attachments/assets/0ad7b0ec-8a4c-4430-878e-e65a4aa78574)\
+*A simple custom message box*
+<br>
 ## Documentation for ClassMessageBox
 The ClassMessageBox class provides a reusable, customizable message box for .NET applications. It allows you to create message boxes with advanced features, such as custom icons, text styles, auto-close timers, and dynamic resizing.
 ________________________________________________________________________________________________________________________
@@ -39,57 +48,57 @@ ________________________________________________________________________________
 ### Required Parameters
 1.	title (String)
 o	Specifies the title of the message box.
-o	Example: "Warning" or "Info"
+o	*Example:* `"Warning"` or `"Info"`
 2.	text (String)
 o	The main message content to display.
-o	Example: "An error occurred during the operation."
+o	*Example:* `"An error occurred during the operation."`
 
 ### Optional Parameters
 1.	footer (String)
 <br>	A footer message, often used for additional instructions or disclaimers.
-<br>	Default: Empty string ("").
-<br>	Example: "Please contact support if the issue persists."
+<br>	*Default:* Empty string (`""`).
+<br>	*Example:* `"Please contact support if the issue persists."`
 2.	buttons (String[])
 <br>	An array of strings representing the buttons to display. Each button is clickable and returns its respective text when clicked.
-<br>	Default: { "OK" }.
-<br>	Example: { "Retry", "Cancel" }
+<br>	*Default:* `{ "OK" }`
+<br>	*Example:* `{ "Retry", "Cancel" }`
 3.	autoCloseTime (Integer)
 <br>	Specifies the duration (in seconds) before the message box auto-closes. If 0, auto-close is disabled.
-<br>	Default: 0.
-<br>	Example: 10 (message box auto-closes in 10 seconds).
+<br>	*Default:* `0`
+<br>	*Example:* `10` (message box auto-closes in 10 seconds).
 4.	textColor (Nullable(Of Color))
 <br>	The color of the main text.
-<br>	Default: Black
-<br>	Example: Color.Red
+<br>	*Default:* `Black`
+<br>	*Example:* `Color.Red`
 5.	textStyle (Nullable(Of FontStyle))
 <br>	The font style of the main text.
-<br>	Default: FontStyle.Regular
-<br>	Example: FontStyle.Bold
+<br>	*Default:* `FontStyle.Regular`
+<br>	*Example:* `FontStyle.Bold`
 6.	footerColor (Nullable(Of Color))
 <br>	The color of the footer text.
-<br>	Default: Gray
-<br>	Example: Color.Blue
+<br>	*Default:* `Gray`
+<br>	*Example:* `Color.Blue`
 7.	footerStyle (Nullable(Of FontStyle))
 <br>	The font style of the footer text.
-<br>	Default: FontStyle.Italic
-<br>	Example: FontStyle.Bold
+<br>	*Default:* `FontStyle.Italic`
+<br>	*Example:* `FontStyle.Bold`
 8.	imageType (String)
 <br>	Specifies a predefined icon to display on the left side of the message box.
 <br>	Supported values: 
-<br>	"None" (No image)
-<br>	"Info"
-<br>	"Warning"
-<br>	"Error"
-<br>	"Critical"
-<br>	"Custom" (Use a custom image path)
-<br>	Default: "None".
+<br>	`"None"` (No image)
+<br>	`"Info"`
+<br>	`"Warning"`
+<br>	`"Error"`
+<br>	`"Critical"`
+<br>	`"Custom"` (Use a custom image path)
+<br>	*Default:* `"None"`.
 9.	customImagePath (String)
 <br>	Specifies the path to a custom image to display. Only valid if imageType is set to "Custom".
-<br>	Default: Empty string ("").
-<br>	Example: "C:\Images\CustomIcon.png"
+<br>	*Default:* Empty string (`""`).
+<br>	*Example:* `"C:\Images\CustomIcon.png"`
 ________________________________________________________________________________________________________________________
 ### Return Value
-The method returns a String representing the button clicked by the user or "AutoClose" if the message box was automatically closed.
+The method returns a String representing the button clicked by the user or "AutoClose" if no option is selected by the user.
 ________________________________________________________________________________________________________________________
 
 
