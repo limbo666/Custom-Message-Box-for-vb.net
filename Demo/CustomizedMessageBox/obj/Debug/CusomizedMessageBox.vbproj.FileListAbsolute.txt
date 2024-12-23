@@ -1,0 +1,12 @@
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\bin\Debug\CusomizedMessageBox.exe.config
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\bin\Debug\CusomizedMessageBox.exe
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\bin\Debug\CusomizedMessageBox.pdb
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\bin\Debug\CusomizedMessageBox.xml
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\obj\Debug\CusomizedMessageBox.vbproj.AssemblyReference.cache
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\obj\Debug\CusomizedMessageBox.Form1.resources
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\obj\Debug\CusomizedMessageBox.Resources.resources
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\obj\Debug\CusomizedMessageBox.vbproj.GenerateResource.cache
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\obj\Debug\CusomizedMessageBox.vbproj.CoreCompileInputs.cache
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\obj\Debug\CusomizedMessageBox.exe
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\obj\Debug\CusomizedMessageBox.xml
+C:\Users\Nikos\source\repos\CusomizedMessageBox\CusomizedMessageBox\obj\Debug\CusomizedMessageBox.pdb

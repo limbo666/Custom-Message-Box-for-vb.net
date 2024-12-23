@@ -1,0 +1,12 @@
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\bin\Debug\CustomizedMessageBox.exe.config
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\bin\Debug\CustomizedMessageBox.exe
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\bin\Debug\CustomizedMessageBox.pdb
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\bin\Debug\CustomizedMessageBox.xml
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\obj\Debug\CustomizedMessageBox.vbproj.AssemblyReference.cache
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\obj\Debug\CustomizedMessageBox.Form1.resources
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\obj\Debug\CustomizedMessageBox.Resources.resources
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\obj\Debug\CustomizedMessageBox.vbproj.GenerateResource.cache
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\obj\Debug\CustomizedMessageBox.vbproj.CoreCompileInputs.cache
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\obj\Debug\CustomizedMessageBox.exe
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\obj\Debug\CustomizedMessageBox.xml
+C:\Users\Nikos\source\repos\CustomizedMessageBox\CustomizedMessageBox\obj\Debug\CustomizedMessageBox.pdb
