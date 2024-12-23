@@ -100,6 +100,16 @@ ________________________________________________________________________________
 ### Return Value
 The method returns a String representing the button clicked by the user or "AutoClose" if no option is selected by the user.
 ________________________________________________________________________________________________________________________
+### How to use
+Add the class to your vb.net project\
+Call the messagebox by stating:  `ClassMessageBox.ShowMessageBox`\
+<br>
+*Example 1:* `ClassMessageBox.ShowMessageBox("Information","Operation completed successfully.")`\
+*Example 2:* `Dim result = ClassMessageBox.ShowMessageBox("Warning", "An issue was detected during the operation.",footer:="Please contact support if this persists.", buttons:=New String() {"Retry", "Cancel"}, imageType:="Warning")`\
+*Example 3:* `Dim result = ClassMessageBox.ShowMessageBox("Custom Info Message Box",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "This is a demo message box", {"Me", "You", "Someone Else", "No One"}, 30, Color.DarkBlue, FontStyle.Bold, Color.Fuchsia, FontStyle.Italic, "Info")
+            MessageBox.Show("User Response: " & result)`
 
 
 
