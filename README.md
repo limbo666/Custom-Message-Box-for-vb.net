@@ -96,6 +96,11 @@ o	*Example:* `"An error occurred during the operation."`
 <br>	Specifies the path to a custom image to display. Only valid if imageType is set to "Custom".
 <br>	*Default:* Empty string (`""`).
 <br>	*Example:* `"C:\Images\CustomIcon.png"`
+10.	 soundType (String)
+<br>	Type of system sound ("None", "Asterisk", "Beep", "Exclamation", "Hand", "Question").
+<br>	*Default:* Empty string (`""`).
+<br>	*Example:* `"Beep"`
+
 ________________________________________________________________________________________________________________________
 ### Return Value
 The method returns a String representing the button clicked by the user or "AutoClose" if no option is selected by the user.
@@ -105,12 +110,59 @@ Download the class file from [Class folder](https://github.com/limbo666/Custom-M
 Add the class to your vb.net project\
 Call the message box in your code by stating:  `ClassMessageBox.ShowMessageBox`\
 <br>
-*Example 1:* `ClassMessageBox.ShowMessageBox("Information","Operation completed successfully.")`\
-*Example 2:* `Dim result = ClassMessageBox.ShowMessageBox("Warning", "An issue was detected during the operation.",footer:="Please contact support if this persists.", buttons:=New String() {"Retry", "Cancel"}, imageType:="Warning")`\
-*Example 3:* `Dim result = ClassMessageBox.ShowMessageBox("Custom Info Message Box",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "This is a demo message box", {"Me", "You", "Someone Else", "No One"}, 30, Color.DarkBlue, FontStyle.Bold, Color.Fuchsia, FontStyle.Italic, "Info")
-            MessageBox.Show("User Response: " & result)`
+
+*Example 0:* 
+```
+Dim result = ClassMessageBox.ShowMessageBox(
+    title:="Simple Message",
+    text:="This is a basic message box with default settings."
+)
+```
+
+
+
+*Example 1:* 
+```
+Dim result = ClassMessageBox.ShowMessageBox(
+    title:="Information",
+    text:="Your operation completed successfully!",
+    footer:="Click OK to continue.",
+    buttons:={"OK"},
+    textColor:=Color.DarkBlue,
+    textStyle:=FontStyle.Bold,
+    imageType:="Info",
+    soundType:="Question"
+)
+```
+
+*Example 2:* 
+```
+Dim result = ClassMessageBox.ShowMessageBox(
+    title:="Warning",
+    text:="Proceed with caution! This action may overwrite data.",
+    footer:="Auto-closes in 10 seconds.",
+    buttons:={"Proceed", "Cancel"},
+    autoCloseTime:=10,
+    imageType:="Warning",
+    soundType:="Exclamation"
+)
+MessageBox.Show("User Response: " & result)
+```
+
+*Example 3:* 
+```
+Dim result = ClassMessageBox.ShowMessageBox(
+    title:="Error",
+    text:="An unexpected error occurred while processing your request.",
+    footer:="Contact support for assistance.",
+    buttons:={"Retry", "Ignore", "Abort"},
+    footerColor:=Color.Red,
+    footerStyle:=FontStyle.Italic,
+    imageType:="Error",
+    soundType:="Hand"
+)
+MessageBox.Show("User Response: " & result)
+```
 
 ________________________________________________________________________________________________________________________
 
