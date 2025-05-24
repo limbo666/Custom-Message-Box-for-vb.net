@@ -100,7 +100,13 @@ o	*Example:* `"An error occurred during the operation."`
 <br>	Type of system sound ("None", "Asterisk", "Beep", "Exclamation", "Hand", "Question").
 <br>	*Default:* Empty string (`""`).
 <br>	*Example:* `"Beep"`
-
+<br>	Supported values: 
+<br>	`"None"` (No image)
+<br>	`"Asterisk"`
+<br>	`"Beep"`
+<br>	`"Exclamation"`
+<br>	`"Hand"`
+<br>	`"Question"`
 ________________________________________________________________________________________________________________________
 ### Return Value
 The method returns a String representing the button clicked by the user or "AutoClose" if no option is selected by the user.
