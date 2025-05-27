@@ -30,7 +30,7 @@ ________________________________________________________________________________
 ### Namespace
 Ensure this class is included in your project and imported as necessary.
 ### Method
-`Public Shared Function ShowMessageBox(
+Public Shared Function ShowMessageBox(
     ByVal title As String,
     ByVal text As String,
     Optional ByVal footer As String = "",
@@ -41,8 +41,12 @@ Ensure this class is included in your project and imported as necessary.
     Optional ByVal footerColor As Nullable(Of Color) = Nothing,
     Optional ByVal footerStyle As Nullable(Of FontStyle) = Nothing,
     Optional ByVal imageType As String = "None",
-    Optional ByVal customImagePath As String = ""
-) As String`
+    Optional ByVal customImagePath As String = "",
+    Optional ByVal soudType As String = ""
+) As String
+
+---
+
 ________________________________________________________________________________________________________________________
 ## Parameters
 ### Required Parameters
